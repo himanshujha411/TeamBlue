@@ -1,0 +1,15 @@
+CREATE TABLE users (
+`UID` int(11) NOT NULL AUTO_INCREMENT,
+`USERNAME` varchar(30) NOT NULL unique,
+`PASSWORD` varchar(30) NOT NULL,
+PRIMARY KEY (`UID`)
+);
+
+select * from users;
+drop table users;
+
+INSERT INTO USERS VALUES(1,"admin","1111");
+INSERT INTO USERS VALUES(2,"root","2222");
+INSERT INTO USERS VALUES(3,"himanshu","3333");
+INSERT INTO USERS VALUES(4,"yogesh","4444");
+INSERT INTO USERS VALUES(5,"uday","5555");
